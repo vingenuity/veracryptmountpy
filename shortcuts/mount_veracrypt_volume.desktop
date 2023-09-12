@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Mount Veracrypt Volume
+Comment=Mounts a Veracrypt volume with settings defined in a config file.
+Exec=gnome-terminal -- bash -c "sudo -i python $HOME/bin/mount_veracrypt_volume.py -c $HOME/bin/veracrypt_volume_settings.ini"
+Terminal=false
